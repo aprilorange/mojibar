@@ -10,7 +10,7 @@ Now it looks fine on Windows :grin:
 
 ### Download
 
-[32bit](http://7fvk3t.com1.z0.glb.clouddn.com/mojibar/v2.0.0/mojibar-win32-ia32.zip) / [64bit](http://7fvk3t.com1.z0.glb.clouddn.com/mojibar/v2.0.0/mojibar-win32-x64.zip)
+[32bit](http://down2pc.qiniudn.com/mojibar/v2.0.0/mojibar-win32-ia32.zip) / [64bit](http://down2pc.qiniudn.com/mojibar/v2.0.0/mojibar-win32-x64.zip)
 
 ### Build
 
