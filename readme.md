@@ -6,7 +6,7 @@ Now it looks fine on Windows :grin:
 
 ![screenshot](https://cloud.githubusercontent.com/assets/6844785/8640713/c00c690e-28b6-11e5-9f75-021f4971b2ef.gif)
 
-![win32](http://ww4.sinaimg.cn/large/a15b4afegw1euaf0p9632j20iv09i0tv.jpg)
+<img src="http://ww4.sinaimg.cn/large/a15b4afegw1euaf0p9632j20iv09i0tv.jpg" width="100%">
 
 ## Install
 
