@@ -31,6 +31,8 @@ $ npm install electron-prebuilt -g
 
 ## Usage
 
+**For keyboard**
+
 <kbd>ctrl + shift + space</kbd><br>
 Open app.
 
@@ -57,6 +59,14 @@ Hide the window.
 
 <kbd>shift + esc</kbd><br>
 Exit the app.
+
+**For mouse**
+
+Double click on the image of emoji<br>
+Copy emoji unicode char and exit.
+
+Double click on the code of emoji<br>
+Copy emoji code and exit.
 
 ## Built with
 

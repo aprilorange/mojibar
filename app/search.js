@@ -70,6 +70,7 @@ document.addEventListener('dblclick', function (evt) {
   var value = evt.target.getAttribute('value')
   if (evt.target.className === 'code' || evt.target.classList.contains('emoji')) {
     clipboard.writeText(value)
+    ipc.send('abort')
   }
 })
 
