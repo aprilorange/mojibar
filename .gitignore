@@ -1,1 +1,5 @@
 node_modules
+mojibar-win32-ia32
+mojibar-win32-x64
+*.zip
+*.7z

@@ -49,12 +49,27 @@ document.addEventListener('keydown', function (evt) {
   }
 
   if (!evt.target.className.match('search') && evt.keyCode === 191 && !evt.shiftKey && !evt.metaKey && !evt.ctrlKey) {
-    // on `/`: focus on the search field
+    // on `/`: focus on the search field and go Top by
+    // reindexing the result of the value in searchInput
+    var value = searchInput.value.trim()
     searchInput.select()
+    search(value)
     evt.preventDefault()
   } else if (evt.keyCode === 27) {
+    // exit app
+    if (evt.shiftKey) {
+      ipc.send('terminate')
+    }
     // on escape: exit
     ipc.send('abort')
+  }
+})
+
+document.addEventListener('dblclick', function (evt) {
+  // if typing while navigatin, just type into the search box!
+  var value = evt.target.getAttribute('value')
+  if (evt.target.className === 'code' || evt.target.classList.contains('emoji')) {
+    clipboard.writeText(value)
   }
 })
 
@@ -78,7 +93,7 @@ function search (query) {
     return emojis.keys.indexOf(a) - emojis.keys.indexOf(b)
   }).map(function generateMarkup (name) {
     var unicode = (emojis[name]['char'] || '--')
-    var result = '<div class="result"><span class="emoji">' + unicode + '</span>'
+    var result = '<div class="result"><span class="emoji s_' + name + '" value="' + unicode + '"></span>'
     result += '<input readonly type="text" data-char="' + unicode + '" class="code" value=":' + name + ':"></div>'
     return result
   }).join('')

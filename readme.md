@@ -1,6 +1,8 @@
 # Mojibar [![js-standard-style](https://img.shields.io/badge/code%20style-standard-brightgreen.svg?style=flat)](https://github.com/feross/standard)
 
-A menubar app adaptation of [Emoji searcher](http://emoji.muan.co).
+## A fork of [Mojibar](https://github.com/muan/mojibar) for Win32 platform
+
+Now it looks fine on Windows :grin:
 
 ![screenshot](https://cloud.githubusercontent.com/assets/6844785/8640713/c00c690e-28b6-11e5-9f75-021f4971b2ef.gif)
 
@@ -8,14 +10,14 @@ A menubar app adaptation of [Emoji searcher](http://emoji.muan.co).
 
 ### Download
 
-[Download the latest version for Mac on the releases page](https://github.com/muan/mojibar/releases).
+[Download the latest version for Mac on the releases page](https://github.com/aprilorange/mojibar/releases).
 
 ### Build
 
 :construction:
 
 ```
-$ git clone https://github.com/muan/mojibar.git
+$ git clone https://github.com/aprilorange/mojibar.git
 $ cd mojibar
 $ npm install
 $ npm run app
@@ -51,7 +53,10 @@ Previous 6~9 results.
 Jump to the search field.
 
 <kbd>esc</kbd><br>
-Exit.
+Hide the window.
+
+<kbd>shift + esc</kbd><br>
+Exit the app.
 
 ## Built with
 

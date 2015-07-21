@@ -5,7 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "emojilib": "0.1.0",
-    "menubar": "^2.0.14"
+    "menubar": "git+https://github.com/aprilorange/menubar.git"
   },
   "devDependencies": {
     "electron-packager": "^5.0.1",

@@ -10,8 +10,8 @@ div {
 
 .prepend-mag {
   position: absolute;
-  top: 15px;
-  left: 15px;
+  top: 12px;
+  left: 0;
   font-family: AppleColorEmoji;
 }
 
@@ -20,7 +20,7 @@ div {
 }
 
 .search {
-  padding: 20px 10px 20px 35px;
+  padding: 20px 10px 20px 40px;
   font-size: 14px;
   width: 100%;
   border: 0;
@@ -35,7 +35,7 @@ div {
 }
 
 .results {
-  height: 115px;
+  height: 180x;
   overflow: hidden;
   position: relative;
 }
@@ -52,7 +52,7 @@ div {
   width: 100%;
   display: inline-block;
   border: 1px solid transparent;
-  padding: 5px 15px;
+  padding: 8px 15px;
   padding-left: 35px;
   font-size: 13px;
   border-radius: 30px;
@@ -61,10 +61,4 @@ div {
 .code:focus {
   outline: none;
   border-color: #08c;
-}
-
-.emoji {
-  margin-left: 10px;
-  position: absolute;
-  font-family: AppleColorEmoji;
 }
