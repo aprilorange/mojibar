@@ -1,0 +1,2 @@
+#!/bin/sh
+electron-packager . mojibar --platform=win32 --arch=all --version=0.30.0 --icon ./app/Icon@2x.png --overwrite
