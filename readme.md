@@ -62,10 +62,10 @@ Exit the app.
 
 **For mouse**
 
-Double click on the image of emoji<br>
+<kbd>Double click on the image of emoji</kbd><br>
 Copy emoji unicode char and exit.
 
-Double click on the code of emoji<br>
+<kbd>Double click on the code of emoji</kbd><br>
 Copy emoji code and exit.
 
 ## Built with
