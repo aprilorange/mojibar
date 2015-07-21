@@ -10,7 +10,7 @@ Now it looks fine on Windows :grin:
 
 ### Download
 
-[Download the latest version for Mac on the releases page](https://github.com/aprilorange/mojibar/releases).
+[32bit](http://7fvk3t.com1.z0.glb.clouddn.com/mojibar/v2.0.0/mojibar-win32-ia32.zip) / [64bit](http://7fvk3t.com1.z0.glb.clouddn.com/mojibar/v2.0.0/mojibar-win32-x64.zip)
 
 ### Build
 
