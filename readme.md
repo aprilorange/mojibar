@@ -4,7 +4,7 @@
 
 Now it looks fine on Windows :grin:
 
-![screenshot](https://cloud.githubusercontent.com/assets/6844785/8640713/c00c690e-28b6-11e5-9f75-021f4971b2ef.gif)
+![screenshot](http://ww4.sinaimg.cn/large/a15b4afegw1eukjjpao8nj20fe091gms.jpg)
 
 ## Install
 
